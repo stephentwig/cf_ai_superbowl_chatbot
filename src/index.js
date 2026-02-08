@@ -4,21 +4,7 @@ const HTML = `<!doctype html>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Super Bowl Chat</title>
-    <style>
-      :root { color-scheme: light; }
-      body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #f6f6f6; }
-      .wrap { max-width: 760px; margin: 24px auto; padding: 16px; }
-      h1 { font-size: 20px; margin: 0 0 12px; }
-      #log { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px; height: 360px; overflow: auto; }
-      .msg { margin: 8px 0; }
-      .role { font-weight: 600; }
-      .assistant { color: #0f6b2f; background: #f1f3f5; padding: 6px 8px; border-radius: 6px; }
-      form { display: flex; gap: 8px; margin-top: 12px; }
-      input { flex: 1; padding: 10px; border-radius: 6px; border: 1px solid #ccc; }
-      button { padding: 10px 14px; border-radius: 6px; border: 1px solid #111; background: #111; color: #fff; cursor: pointer; }
-      button:disabled { opacity: 0.6; cursor: not-allowed; }
-      .muted { color: #666; font-size: 12px; margin-top: 6px; }
-    </style>
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <div class="wrap">

@@ -5,6 +5,9 @@ compatibility_date = "2025-01-20"
 [ai]
 binding = "AI"
 
+[assets]
+directory = "./public"
+
 [[durable_objects.bindings]]
 name = "CHAT_MEMORY"
 class_name = "ChatMemory"

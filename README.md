@@ -11,6 +11,8 @@ Minimal Super Bowl chat bot built on Cloudflare Workers + Workers AI. Includes a
 ## Project structure
 - `src/index.js` Worker + Durable Object + embedded HTML UI
 - `wrangler.toml` Cloudflare config
+- `public/styles.css` UI styles
+- `public/ui.png` UI image
 - `PROMPTS.md` AI prompts used
 
 ## Prerequisites
@@ -33,6 +35,9 @@ Minimal Super Bowl chat bot built on Cloudflare Workers + Workers AI. Includes a
    ```
 4. Open the local URL shown by Wrangler and chat.
 
+## UI preview
+![UI](./public/superbowl_chatbot_ui.png)
+
 ## Deploy
 ```bash
 npm run deploy
@@ -40,4 +45,5 @@ npm run deploy
 
 ## Notes
 - The model is set to `@cf/meta/llama-3.3-70b-instruct-fp8-fast` in `src/index.js`. If your account exposes a different Llama 3.3 model name, update it there.
+- The UI styles are in `public/styles.css`.
 - Memory is stored per browser session via a cookie; clearing cookies resets memory.
