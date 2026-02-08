@@ -40,7 +40,7 @@ Minimal Super Bowl chat bot built on Cloudflare Workers + Workers AI. Includes a
 
 ## Access it in your browser using the URL:
 ```bash
-[npm run deploy](http://localhost:8787)
+http://localhost:8787
 ```
 
 ## Notes
