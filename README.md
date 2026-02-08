@@ -12,7 +12,7 @@ Minimal Super Bowl chat bot built on Cloudflare Workers + Workers AI. Includes a
 - `src/index.js` Worker + Durable Object + embedded HTML UI
 - `wrangler.toml` Cloudflare config
 - `public/styles.css` UI styles
-- `public/ui.png` UI image
+- `public/superbowl_chatbot_ui.png` UI image
 - `PROMPTS.md` AI prompts used
 
 ## Prerequisites
@@ -38,9 +38,9 @@ Minimal Super Bowl chat bot built on Cloudflare Workers + Workers AI. Includes a
 ## UI preview
 ![UI](./public/superbowl_chatbot_ui.png)
 
-## Deploy
+## Access it in your browser using the URL:
 ```bash
-npm run deploy
+[npm run deploy](http://localhost:8787)
 ```
 
 ## Notes
