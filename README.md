@@ -44,6 +44,6 @@ http://localhost:8787
 ```
 
 ## Notes
-- The model is set to `@cf/meta/llama-3.3-70b-instruct-fp8-fast` in `src/index.js`. If your account exposes a different Llama 3.3 model name, update it there.
+- The model is set to `@cf/meta/llama-3.3-70b-instruct-fp8-fast` in `src/index.js`. 
 - The UI styles are in `public/styles.css`.
 - Memory is stored per browser session via a cookie; clearing cookies resets memory.
